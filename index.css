@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+/* navbar top */
+.navbar-top{
+    width: 100%;
+    height: 10hv;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.social-link i img{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-link i img:hover{
+    background-color: rgba(162, 162, 91, 0.982);
+    border-radius: 50px;
+}
+@media screen and (max-width:420px){
+    .social-link i img{
+        width: 20px;
+    }
+}
+.logo h3{
+    font-weight: bold;
+}
+@media screen and (max-width:420px){
+    .logo h3{
+        font-size: 20px;
+    }
+}
+.icons i img{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.icons i img:hover{
+    background-color: rgba(162, 162, 91, 0.982);
+}
+@media screen and (max-width:420px){
+    .icons i img{
+        width: 20px;
+    }
+}
+/* navbar top */
+
+/* main content */
+.main-content{
+    width: 100%;
+    height: 90hv;
+    background-image: url(./furniture\ img/background2.jpg);
+    background-size: cover;
+    background-position: 70%;
+} 
+/* navbar */
+/* #navbar-color{
+    background-color: rgba(159, 159, 70, 0.982);
+} */
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    margin-left: 30px;
+    font-weight: bold;
+    color: rgb(56, 83, 3);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: rgb(109, 139, 50);
+}
+/* navbar */
+
+/* content */
+.content{
+    margin-top: 400px;
+    margin-left: 60px;
+}
+.content h1{
+    font-size: 50px;
+}
+#btn1 button{
+    width: 150px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid  rgb(95, 134, 18);
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn1 button:hover{
+    background-color: rgba(162, 162, 91, 0.982);
+}
+@media screen  and (max-width:420px){
+    .content h1{
+        font-size: 30px;
+    }
+}
+/* content */
+
+/* main content */
+
+/* card1 */
+#btn2 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid olive;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn2 button:hover{
+    background-color: rgb(145, 160, 114);
+}
+/* card1 */
+
+/* card2 */
+#tpc{
+    box-shadow: 0 0 7px rgb(134, 134, 38);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#tpc:hover{
+    transform: translateY(-10px);
+}
+/* caard2 */
+
+/* caard3 */
+#c p{
+    font-weight: bold;
+    
+}
+#c:hover{
+    transform: translateY(-10px);
+    transition: 0.5s ease;
+}
+#btn3{
+    text-align: center;
+}
+#btn3 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgb(95, 134, 18);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn3 button:hover{
+    background-color: rgb(145, 160, 114);
+}
+@media screen and (max-width:895px){
+    #btn3 button{
+        width: 100px;
+    }
+}
+/* caard3 */
+#btn4 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgb(95, 134, 18);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn4 button:hover{
+    background-color: rgb(145, 160, 114);
+}
+
+/* contact us */
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis:48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div .fa{
+    font-size: 28px;
+    color: rgb(65, 96, 3);
+    margin: 10px;
+    margin-right: 30px;
+}
+.contact-col div p{
+    padding: 0;
+}
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgba(162, 162, 91, 0.982);
+    font-weight: 400;
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgb(70, 105, 1);
+}
+.contact-col input:hover, .contact-col textarea:hover{
+    background-color: rgba(162, 162, 91, 0.982);
+}
+#btn5 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgb(70, 105, 1);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn5 button:hover{
+    background-color: rgba(162, 162, 91, 0.982);
+}
+
+/* footer */
+#footer{
+    width: 100%;
+    background-color: rgba(162, 162, 91, 0.982);
+    margin-top: 100px;
+}
+#footer h1{
+    color: whitesmoke;
+    padding-top: 30px;
+}
+#footer h5{
+    color: rgb(86, 126, 8);
+    padding-top: 20px;
+}
+#footer h5:hover{
+    color: rgb(96, 144, 2);
+    cursor: pointer;
+}
+#footer p{
+    color: white;
+}
+.icons i{
+    color: whitesmoke;
+    font-size: 30px;
+    cursor: pointer;
+}
+.icons i:hover{
+    color: rgb(98, 142, 10);
+}
+.copyright{
+    color: whitesmoke;
+    margin-top: 30px;
+}
+.credite{
+    color: whitesmoke ;
+}
+/* footer */
